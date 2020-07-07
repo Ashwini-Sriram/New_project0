@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Google Advance Search
+        </title>
+        <style>
+            #logo{
+                height:33px;
+                width:92px;
+                padding-top: 10px;
+padding-left: 10px;
+            }
+            .tbar{
+                width:100%;
+                height:60px;
+                background-color:  #f1f1f1;;
+            }
+            #advance{
+                color:#d93025;
+                font-size: 20px;
+                font-family: Arial, Helvetica, sans-serif;
+                padding-top: 15px;
+            }
+            .query_box{
+                background-color: -internal-light-dark-color(rgb(255, 255, 255), rgb(59, 59, 59)); border-radius: 1px;
+            border: 1px solid #d9d9d9;
+            border-top: 1px solid #c0c0c0;
+            font-size: 13px;
+            height: 25px;
+            padding: 1px 8px;
+            width:572px;
+            height: 29px;
+
+            }
+
+        </style>
+    </head>
+    <body>
+        <div class="tbar">
+           <a href="index.html">
+               <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/2560px-Google_2015_logo.svg.png" id="logo">
+             </a>
+             <a href="index.html"
+              style="float: right; color:black; text-decoration: none; padding-top: 20px; padding-right: 10px; font-family: Arial, Helvetica, sans-serif;" >
+              Google Search</a>
+        </div>
+        <div style="width:100%; height:42px; padding-top: 25px; padding-left: 30px; border-bottom : 0.7px solid #e6e4e1;">
+            <span id="advance">Advance Search</span>
+        </div>
+        <div style="float:left; font-family: Arial, Helvetica, sans-serif; margin-top:40px; margin-left: 30px; line-height: 40px; width:62%;">
+            <span style="font-size: 16px;color: #333; ">Find pages with...</span> <br>
+            <form action="https://google.com/search" autocomplete="off" name="f">
+             <div style="font-size: 13px;color: #222222; ">
+            all these words:<input type="text" name="as_q"  class ="query_box" style="margin-left: 92px;"> <br>
+            this exact word or phrase:<input text="text" name="as_epq"  class="query_box " style="margin-left:34px;" ><br>
+            any of these words:<input text="text" name="as_oq" class="query_box" style="margin-left:70px;"><br>
+            none of these words:<input text="text" name="as_eq" class="query_box" style="margin-left:62px ;"><br>
+
+             </div>  
+             <div style="float: right;  font-family: Arial, Helvetica, sans-serif;">
+                 <input type="submit" value="Advance Search"  style="-webkit-user-select:none; user-select:none; background-color: #4d90fe; color:#fff; border: 1px solid #3079ed;border: 2px; width: 120px; height: 30px; margin-right: 10px; margin-top: 30px;font-weight: bold;">
+                 
+             </div>
+           </form>                                 
+        </div>
+        <div style=" float:right; font-family: Arial, Helvetica, sans-serif; width:35%; margin-top:40px ;
+        line-height: 40px; ">
+            <span style="font-family: Arial, Helvetica, sans-serif; font-size: 13px; color: #777777; font-weight: bold;">
+                To do this in the search box.
+            </span><br>
+            <span style="font-family: Arial, Helvetica, sans-serif; font-size:11px; ">
+                Type the important words: tri-colour rat terrier<br>
+                Put exact words in quotes: "rat terrier"<br>
+                Type OR between all the words you want: miniature OR standard<br>
+                <div style="line-height: 15px;">
+                    Put a minus sign just before words that you don't want:<br>
+                 -rodent, -"Jack Russell"
+                </div>
+
+            </span>
+
+        </div>
+        <div style="width: 100%; height: 30px; border-bottom : 0.7px solid#e6e4e1; float: left;">
+
+        </div>
+    </body>
+</html>
