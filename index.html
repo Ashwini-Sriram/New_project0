@@ -1,12 +1,270 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Google</title>
-    </head>
-    <body>
-        <img alt="Google" height="92" id="hplogo" 
-        src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/2560px-Google_2015_logo.svg.png" 
-        srcset="/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png 1x, /images/branding/googlelogo/2x/googlelogo_color_272x92dp.png 2x" 
-        style="padding-top:109px" width="272" data-atf="1">
-    </body>
+
+<head>
+    <title>Google</title>
+    <style>
+        #hplogo {
+            padding-top: 90px;
+            height: 92px;
+            width: 272px;
+            text-align: -webkit-center;
+            margin-bottom: 10px;
+        }
+
+        ul {
+            list-style-type: none;
+            margin: 7px;
+            padding: 10px;
+            overflow: hidden;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 13px;
+
+
+        }
+
+        li {
+            float: right;
+            margin: 7px;
+        }
+
+        li a {
+            display: block;
+
+            text-align: center;
+            color: black;
+            text-decoration: none;
+        }
+
+        .nav {
+            padding-top: 6px;
+
+        }
+
+        .sign {
+            border: 1px solid #4285f4;
+            border-radius: 2px;
+            background-color: #4285f4;
+            height: 30px;
+            width: 69.34px;
+            display: black;
+margin-right: 0px;
+            white-space: nowrap;
+            text-align: center;
+        }
+
+        #sign_in {
+            padding: 6px;
+            font-weight: bold;
+            outline: none;
+            color: #fff;
+            cursor: default;
+
+        }
+
+        #search {
+            flex: 1;
+            display: flex;
+            padding: 5px 8px 0 16px;
+            padding-left: 14px;
+            border: 0.1px solid #e0dddc;
+            border-radius: 25px;
+            height: 44px;
+            width: 582px;
+            margin-top: 5px;
+        }
+
+        #search_logo {
+            height: 17px;
+            width: 17px;
+            float: left;
+            padding-left: 2px;
+            padding-top: 10px;
+        }
+
+        #mic {
+            height: 24px;
+            width: 24px;
+            float: right;
+            margin-left: 30px;
+            margin-top: 8px;
+
+
+        }
+
+        #input_text {
+            border: none;
+            height: 34px;
+            width: 487px;
+            margin-left: 20px;
+            margin-right: 10px;
+        }
+
+        #submit_search,
+        #lucky {
+            background-image: -webkit-linear-gradient(top, #f5f5f5, #f1f1f1);
+            background-color: #f2f2f2;
+            border: 1px solid #f2f2f2;
+            border-radius: 4px;
+            color: #5F6368;
+            font-family: arial, sans-serif;
+            font-size: 14px;
+            margin: 11px 6px;
+            padding: 0 16px;
+            line-height: 27px;
+            height: 36px;
+            min-width: 54px;
+            text-align: center;
+            cursor: pointer;
+            user-select: none;
+        }
+
+        #submit_search {
+            float: left;
+        }
+
+        #buttons {
+            flex: 1;
+            display: flex;
+            padding: 5px 8px 0 16px;
+
+            margin-right: 100px;
+            height: 40px;
+            width: 200px;
+            margin-top: 15px;
+
+        }
+        .india{
+            position:absolute;
+            bottom:30px;
+        }
+        .fbar{
+            
+  position: absolute;
+  bottom: 0;
+  
+        }
+
+        .india,.fbar {
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: left;
+            color: rgba(0, 0, 0, .54);
+            padding-left: 27px;
+            padding-top: 10px;
+            display: block;
+            width: 100%;
+            height: 30px;
+            background-color: #f2f0f0;
+            
+        }
+        .i{
+            margin-right: 10px;
+            
+        }
+        .e{
+            margin-left:10px;
+        }
+
+    </style>
+</head>
+
+<body>
+    <ul>
+        <li>
+            <div class="sign">
+                <a id="sign_in"
+                    href="https://accounts.google.com/signin/v2/identifier?hl=en&passive=true&continue=https%3A%2F%2Fwww.google.com%2F&flowName=GlifWebSignIn&flowEntry=ServiceLogin">Sign
+                    in</a>
+            </div>
+
+        </li>
+
+
+        <li>
+            <div class="nav">
+
+                <a href="image.html">Images</a>
+            </div>
+
+        </li>
+        <li>
+            <div id="Advance" class="nav">
+                <a href="advance.html">Advanced Search</a>
+            </div>
+        </li>
+    </ul>
+
+    </div>
+
+    <center>
+        <img alt="Google" id="hplogo"
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/2560px-Google_2015_logo.svg.png"
+            data-atf="1">
+        <form action="https://google.com/search" autocomplete="off">
+
+            <div id="search">
+
+                <img id="search_logo" src="http://www.clker.com/cliparts/g/Y/P/o/h/U/search-logo-md.png">
+
+
+                <input id="input_text" maxlength="2048" name="q" type="text" jsaction="paste:puy29d"
+                    aria-autocomplete="both" aria-haspopup="false" autocapitalize="off" autocomplete="off"
+                    autocorrect="off" autofocus="" role="combobox" spellcheck="false" title="Search"
+                    data-ved="0ahUKEwjwl42bw7bqAhUUbn0KHWdYASsQ39UDCAQ" required>
+
+
+
+                <img id="mic"
+                    src="https://d1yjjnpx0p53s8.cloudfront.net/styles/logo-original-577x577/s3/052018/untitled-1_63.png?GqQJ574bCONHNy8dzelLNJgZ7etJGqLO&itok=cmYnTgwx">
+
+
+
+
+
+            </div>
+
+
+
+            <div id="buttons">
+
+                <div>
+                    <input id="submit_search" type="submit" value="Google Search" name=btnk
+                        data-ved="0ahUKEwjwl42bw7bqAhUUbn0KHWdYASsQ39UDCAQ">
+                </div>
+        </form>
+        <a href="https://www.google.com/doodles/" style="float: right;">
+            <input id="lucky" type="button" value="I'm Feeling lucky" name=lucky>
+
+        </a>
+
+
+        </div>
+
+
+
+
+
+    </center>
+    <footer>
+        <div class="india">
+            <span style="margin-left: 10px;">India</span>
+        </div>
+        <div class="fbar">
+            <span style="margin-left: 10px;" class ="i">Advertising</span>
+            <span class="i">Business</span>
+            <span class="i">About</span>
+            <span class="i">How Search works</span>
+            <div style="float: right;">
+                <span class="e">Settings</span>
+                <span class="e">Terms</span>
+                <span style="margin-right:40px;" class="e">Privacy</span>
+    
+            </div>
+        </div>
+
+    </footer>
+    
+
+</body>
+
 </html>
